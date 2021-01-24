@@ -17,7 +17,7 @@ Important: I understand that to a full extend that it is hard to write or solve 
 ***QUESTIONS****
 
 
-Your task in this project is to write the following queries in SQL and make sure they run in the PostgreSQL database. If you make any assumptions, clearly state them as comments in your submitted file.
+ write the following queries in SQL and make sure that it will run on the following database PostgreSQL database. 
 
 1. Find all the coaches who have coached exactly TWO teams. List their first names followed by their last names;
 2. Find all the players who played in a Boston team or a Denver team. List their first names only.
