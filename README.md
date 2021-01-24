@@ -31,5 +31,11 @@ Important: I understand that to a full extend that it is hard to write or solve 
 10. List the name(s) of school(s) that sent the second largest number of drafts to NBA. List the name of each school and the number of drafts sent.
 
 
+**WRITE FUNCTIONS FOR THE FOLLOWING
+
+1. Write a function named fibonacci that, given an integer i (as the 1st and only parameter), returns the i-th Fibonacci number. The valid range of i is [0, 1000] in our project. Note that the first Fibonacci number is F(0) = 0, and we have F(1) = 1, then you can use the formula F(i) = F(i-1) + F(i-2) to get the output for other inputs. If the parameter i is out of range, your function should return -1.
+
+2. Write a function named player_height_rank that, given the first name and last name of a player, return the rank of that player based on his height. Note that the players table stores height information in feet and inches, thus you have to sort the players by total height instead of h_feet or h_inches to get the rank. For a player, his rank is defined as one plus the number of players taller than he is. Players with the exact same height should have the same rank, therefore your function should deal with such ties. Some examples according to the NBA database are: Gheorghe Muresan ranked 1 with a height of 7 feet and 7 inches; Manute Bol ranked 2nd (7 ft. 6 in.); Ming Yao and three others ranked 3rd (7 ft. 5 in.); and five other players with height 7 ft. 4 in. all ranked 7th, etc. If the name given does not match any player in the players table, the function returns 0.
+
 
 
